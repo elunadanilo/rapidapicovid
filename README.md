@@ -8,11 +8,12 @@ _Solo debes descargar el proyecto, previa instalacion de los requisitos y ejecut
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Que cosas necesitas para instalar el software_
 
 ```
 Visual Studio 2019
 Net Core 3.1
+Conexión a internet para ejecutar las librerias en CDN
 ```
 
 ### Instalación 🔧
@@ -22,6 +23,11 @@ _Para poder editar y ejecutar el proyecto deberás:_
 _Instalar Visual Studio 2019 o Visual Studio Community 2019_
 _Instalar NET Core 3.1_
 
+### Forma de uso 🔧
+
+_Para poder verificar los registros, solo debes ejecutar el proyecto y seleccionar en el navegador la pestaña de Regiones_
+_Al desplegarse los registros puedes presionar los botones de CSV, XML y JSON para exportar los registros_
+_También puedes validar los registros por provincia seleccionando en la lista desplegable la región y posteriormente presionar el botón de reporte_
 ## Ejecutando las pruebas ⚙️
 
 _Para ejecutar las pruebas unitarias puedes dirigirte al proyecto PruebasUnitariasRapidApi, con el click derecho del mouse seleccionar ejecutar pruebas unitarias._

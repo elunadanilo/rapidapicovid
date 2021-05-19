@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\n unit 3\\Pruebas Unitarias.csproj": {}
+    "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\n unit 3\\Pruebas Unitarias.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\n unit 3\\Pruebas Unitarias.csproj": {
+    "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\n unit 3\\Pruebas Unitarias.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\n unit 3\\Pruebas Unitarias.csproj",
+        "projectUniqueName": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\n unit 3\\Pruebas Unitarias.csproj",
         "projectName": "Pruebas Unitarias",
-        "projectPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\n unit 3\\Pruebas Unitarias.csproj",
+        "projectPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\n unit 3\\Pruebas Unitarias.csproj",
         "packagesPath": "C:\\Users\\ditzep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\n unit 3\\obj\\",
+        "outputPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\n unit 3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -33,8 +33,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\RapidApiCovid\\RapidApiCovid.csproj": {
-                "projectPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\RapidApiCovid\\RapidApiCovid.csproj"
+              "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\RapidApiCovid\\RapidApiCovid.csproj": {
+                "projectPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\RapidApiCovid\\RapidApiCovid.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\RapidApiCovid\\RapidApiCovid.csproj": {
+    "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\RapidApiCovid\\RapidApiCovid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\RapidApiCovid\\RapidApiCovid.csproj",
+        "projectUniqueName": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\RapidApiCovid\\RapidApiCovid.csproj",
         "projectName": "RapidApiCovid",
-        "projectPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\RapidApiCovid\\RapidApiCovid.csproj",
+        "projectPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\RapidApiCovid\\RapidApiCovid.csproj",
         "packagesPath": "C:\\Users\\ditzep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\RapidApiCovid\\obj\\",
+        "outputPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\RapidApiCovid\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

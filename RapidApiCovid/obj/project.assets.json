@@ -6187,11 +6187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\RapidApiCovid\\RapidApiCovid.csproj",
+      "projectUniqueName": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\RapidApiCovid\\RapidApiCovid.csproj",
       "projectName": "RapidApiCovid",
-      "projectPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\RapidApiCovid\\RapidApiCovid.csproj",
+      "projectPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\RapidApiCovid\\RapidApiCovid.csproj",
       "packagesPath": "C:\\Users\\ditzep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\RapidApiCovid\\obj\\",
+      "outputPath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\RapidApiCovid\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

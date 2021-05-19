@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w+SwvbmYIWTXGsLFi74lwZBhf1T2kn22d7Qwen9Qo6OV7VaG9OK83eGcCkojW2x0DBArwoKlZUo98Dykeujwnw==",
+  "dgSpecHash": "YNCczpNm99bf18Hn3rLnjJXXYuSjgxMGAI+LJK3AavQYj0PE6FaMr29wUHNQj77p9bV2O0lsvgnrwc+3aVyRKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Desktop\\RapidApiCovid\\n unit 3\\Pruebas Unitarias.csproj",
+  "projectFilePath": "C:\\Users\\ditzep\\OneDrive - San Diego, S. A\\Documents\\rapidapicovid\\n unit 3\\Pruebas Unitarias.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ditzep\\.nuget\\packages\\csvhelper\\20.0.0\\csvhelper.20.0.0.nupkg.sha512",
     "C:\\Users\\ditzep\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

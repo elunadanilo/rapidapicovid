@@ -1,0 +1,141 @@
+﻿@model IEnumerable<RapidApiCovid.Models.RegionCasesDeaths>
+
+@{
+    ViewData["Title"] = "Reporte/Region";
+}
+
+<div id="regiones">
+    <h1>Regiones</h1>
+
+    <div class="d-flex flex-row justify-content-between">
+        <div>
+            <select name="number" id="myregions" v-model="region">
+                <option value="">Select a Region</option>
+                @foreach (var item in Model)
+                {
+                    <option value="@item.Region">@item.Region</option>
+                }
+            </select>
+            <button onclick="onclicreporte()">Reporte</button>
+        </div>
+        <div>
+            <button v-on:click="exportXml">XML</button>
+            <button v-on:click="exportJson">JSON</button>
+            <button v-on:click="exportCsv">CSV</button>
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Region)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cases)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Deaths)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Region)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cases)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Deaths)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+@section scripts{
+    <script>
+        function onclicreporte() {
+            var selected = document.getElementById("myregions").value;
+            location.href = `/Home/Regiones/${selected}/Reporte`;
+        }
+
+        var app = new Vue({
+            el: '#regiones',
+            data: {
+                region: "",
+                selected:""
+            },
+            methods: {
+                async exportJson() {
+                    await axios.get(
+                        `/Regiones/Reporte/Json2`,
+                        {
+                            responseType: 'blob'
+                        }
+                    ).then((response) => {
+                        var name_header = response.headers["content-disposition"].split(";")[1];
+                        var name = name_header.split("=")[1].replace("\"", "").replace("\"", "");
+
+                        const url = window.URL.createObjectURL(new Blob([response.data]));
+                        const link = document.createElement('a');
+                        link.href = url;
+                        link.setAttribute('download', name);
+                        document.body.appendChild(link);
+                        link.click();
+                    }).catch((error) => {
+                        console.log(error);
+                    });
+                },
+                async exportXml() {
+                    await axios.get(
+                        `/Regiones/Reporte/Xml2`,
+                        {
+                            responseType: 'blob'
+                        }
+                    ).then((response) => {
+                        var name_header = response.headers["content-disposition"].split(";")[1];
+                        var name = name_header.split("=")[1].replace("\"", "").replace("\"", "");
+
+                        const url = window.URL.createObjectURL(new Blob([response.data]));
+                        const link = document.createElement('a');
+                        link.href = url;
+                        link.setAttribute('download', name);
+                        document.body.appendChild(link);
+                        link.click();
+                    }).catch((error) => {
+                        console.log(error);
+                    });
+                },
+                async exportCsv() {
+                    await axios.get(
+                        `/Regiones/Reporte/Csv2`,
+                        {
+                            responseType: 'blob'
+                        }
+                    ).then((response) => {
+                        var name_header = response.headers["content-disposition"].split(";")[1];
+                        var name = name_header.split("=")[1].replace("\"", "").replace("\"", "");
+
+                        const url = window.URL.createObjectURL(new Blob([response.data]));
+                        const link = document.createElement('a');
+                        link.href = url;
+                        link.setAttribute('download', name);
+                        document.body.appendChild(link);
+                        link.click();
+                    }).catch((error) => {
+                        console.log(error);
+                    });
+                }
+            },
+            created() {
+                this.selected ="@ViewBag.region";
+            }
+        })
+    </script>
+}

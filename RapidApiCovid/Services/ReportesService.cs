@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace RapidApiCovid.Services
 {
-    public class ReportesService : ReportesDao
+    public class ReportesService : IReportesDao
     {
         private HttpRequestAPI httpRequest = new HttpRequestAPI();
 

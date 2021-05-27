@@ -14,7 +14,7 @@ namespace RapidApiCovid.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private ReportesDao reportesDao = new ReportesService();
+        private IReportesDao reportesDao = new ReportesService();
 
         public HomeController(ILogger<HomeController> logger)
         {

@@ -17,7 +17,7 @@ namespace RapidApiCovid.Controllers
 {
     public class DownloadController : Controller
     {
-        private ReportesDao reportesDao = new ReportesService();
+        private IReportesDao reportesDao = new ReportesService();
         public IActionResult Index()
         {
             return View();

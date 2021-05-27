@@ -308,7 +308,6 @@ C:\Users\ditzep\OneDrive - San Diego, S. A\Documents\rapidapicovid\RapidApiCovid
 C:\Users\ditzep\OneDrive - San Diego, S. A\Documents\rapidapicovid\RapidApiCovid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\ditzep\OneDrive - San Diego, S. A\Documents\rapidapicovid\RapidApiCovid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\ditzep\OneDrive - San Diego, S. A\Documents\rapidapicovid\RapidApiCovid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ditzep\OneDrive - San Diego, S. A\Documents\rapidapicovid\RapidApiCovid\obj\Debug\netcoreapp3.1\RapidApiCovid.csprojAssemblyReference.cache
 C:\Users\ditzep\OneDrive - San Diego, S. A\Documents\rapidapicovid\RapidApiCovid\obj\Debug\netcoreapp3.1\RapidApiCovid.AssemblyInfoInputs.cache
 C:\Users\ditzep\OneDrive - San Diego, S. A\Documents\rapidapicovid\RapidApiCovid\obj\Debug\netcoreapp3.1\RapidApiCovid.AssemblyInfo.cs
 C:\Users\ditzep\OneDrive - San Diego, S. A\Documents\rapidapicovid\RapidApiCovid\obj\Debug\netcoreapp3.1\RapidApiCovid.csproj.CoreCompileInputs.cache
